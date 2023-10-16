@@ -8,6 +8,7 @@
     border-bottom: 4px solid #006AFF;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     margin: 16px;
+    position: relative;
 }
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
@@ -56,4 +57,9 @@
 }
 a {
     text-decoration: none;
+}
+.emoji {
+    position: absolute;
+    right:0;
+    z-index: 10;
 }
